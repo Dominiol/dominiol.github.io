@@ -1,8 +1,21 @@
 body
 {
-    background: #3B3B3B;
-    color: #D6813C;
-    font-family: "Lucida Console";
-    font-size: 16px;
-    margin: 10px;
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+}
+
+.content
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    border: 1px solid #eee;
+    width: 640px;
+    position: relative;
+    top: 100px;
+    left: calc(50% - 330px);
+    padding: 10px;
+    box-shadow: 0 0 15px #eee;
+    border-radius: 5px;
 }
